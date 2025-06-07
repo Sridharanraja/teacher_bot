@@ -122,7 +122,7 @@ def generate_response(context, question):
     response = client.chat.completions.create(
         model=MODEL_ID,
         messages=[system_message, user_message],
-        temperature=0.3,
+        temperature=0.7,
         max_tokens=2048
     )
     return response.choices[0].message.content
