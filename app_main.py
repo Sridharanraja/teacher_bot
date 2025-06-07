@@ -57,7 +57,7 @@ def login():
 
 # Load environment variables
 # load_dotenv()
-GROQ_API_KEY = "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" #os.getenv("GROQ_API_KEY")
+GROQ_API_KEY ='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' #new_api #"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" #os.getenv("GROQ_API_KEY")
 
 # Initialize Groq client
 client = Groq(api_key=GROQ_API_KEY)
